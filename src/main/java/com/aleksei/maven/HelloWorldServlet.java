@@ -18,7 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
         resp.setContentType("text/html");
 
         PrintWriter out = resp.getWriter();
-        out.print("Hello World from Git!");
+        out.print("Hello World from Git from our presentation!");
         out.flush();
         out.close();
     }
